@@ -1,0 +1,32 @@
+li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+    width: 100%;
+}
+
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+
+  li a:hover {
+      background-color:black;
+  }
+
+  .container {
+      width: 80%;
+      float: right;
+  }
+
+  div h2 {
+      float: left;
+  }
+
+   div h1 {
+      text-align: center;
+  }
