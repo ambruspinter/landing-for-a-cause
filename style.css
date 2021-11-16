@@ -50,3 +50,13 @@ img {
     transform: translate(-50%, 1%);
     border-radius: 20%;
   }
+
+.history {
+    text-align: left;
+    font-size: 25px;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 50%;
+
+}
