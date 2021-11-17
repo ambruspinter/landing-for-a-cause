@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@ ul {
   
   li a {
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     color: white;
     text-align: center;
     padding: 14px 16px;
