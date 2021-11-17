@@ -4,6 +4,8 @@ body {
 }
 ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,7 +14,6 @@ ul {
   }
   
 
-  
   li a {
     display: flex;
     justify-content:space-between;
@@ -20,11 +21,12 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin-left: 140px;
+    margin: 0;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: rgb(224, 179, 171);
+    color: black;
   }
 
   img {
