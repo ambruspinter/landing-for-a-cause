@@ -35,17 +35,34 @@ ul {
 
   #pic1 {
     width: 50%;
+    margin-top: 50px;
   }
 
 
   #article1 { 
-      float: left;
-      width: 50%;
-      text-align: left; 
+    float: left;
+    width: 50%;
+    text-align: left;
+    background-color: wheat;
+    border-radius: 20px; 
+    margin-top: 50px;
+    border: solid black 0px;
   }
 
   h1,p {
     text-align: center;
-    background-color: wheat;
   }
   
+  #article2 { 
+    float: right;
+    width: 50%;
+    text-align: right;
+    background-color: wheat;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: solid black 0px;
+  }
+
+  #article2 h1, p {
+    text-align: center;
+  } 
