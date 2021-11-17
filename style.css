@@ -29,26 +29,23 @@ ul {
     color: black;
   }
 
-  img {
+  #bear {
       width: 100%;
   }
 
-
-  div h1 {
-      background-color: wheat;
-      width: 40%;
-  }
-  div p {
-        width: 40%;
-      background-color: wheat;
-  }
-  #kids {
+  #pic1 {
     width: 50%;
   }
 
 
-  #article1 {
-      top: 0%;  
+  #article1 { 
+      float: left;
+      width: 50%;
+      text-align: left; 
   }
 
+  h1,p {
+    text-align: center;
+    background-color: wheat;
+  }
   
