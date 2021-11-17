@@ -33,9 +33,6 @@ ul {
       width: 100%;
   }
 
-#kidd {
-      margin-top: 80px; 
-  }
 
   div h1 {
       background-color: wheat;
@@ -47,13 +44,11 @@ ul {
   }
   #kids {
     width: 50%;
-    float: right;
   }
 
 
   #article1 {
-      display: flex;
-      flex-wrap: wrap;
+      top: 0%;  
   }
 
   
