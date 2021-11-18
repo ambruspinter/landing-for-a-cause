@@ -39,6 +39,12 @@ li a:hover {
   border-radius: 20px;
 } 
 
+#pic3 {
+  width: 50%;
+  border-radius: 20px;
+  border: 1px solid black
+}
+
 #article1 {
   display: flex;
   justify-content: space-between;
