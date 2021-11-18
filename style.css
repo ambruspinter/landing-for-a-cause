@@ -109,8 +109,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
-   
-    
+    padding-top: 30px;  
   }
 
   .first {
@@ -119,3 +118,33 @@ ul {
     background-color: wheat;
     border-radius: 20px;
   }
+
+  #article2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;  
+  }
+
+  .second {
+    width: 50%;
+    text-align: left;
+    background-color: wheat;
+    border-radius: 20px;
+  }
+
+  #article3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;
+
+  }
+
+  .third {
+    width: 50%;
+    text-align: left;
+    background-color: wheat;
+    border-radius: 20px;
+  }
+
