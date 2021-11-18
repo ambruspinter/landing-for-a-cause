@@ -36,20 +36,16 @@ ul {
 
   #pic1 {
     width: 50%;
-    margin-top: 50px;
     border-radius: 20px;
-  }
+  } 
 
-
+/*
   #article1 { 
-    float: left;
     width: 50%;
     text-align: left;
     background-color: wheat;
     border-radius: 20px; 
-    margin-top: 50px;
-    padding-bottom: 45px;
-  }
+  } 
 
   h1 {
     text-align: center;
@@ -108,4 +104,18 @@ ul {
     border-radius: 20px; 
     margin-top: 50px;
     padding-bottom: 65px;
+  } */
+  #article1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+    
+  }
+
+  .first {
+    width: 50%;
+    text-align: left;
+    background-color: wheat;
+    border-radius: 20px;
   }
