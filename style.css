@@ -39,77 +39,11 @@ ul {
     border-radius: 20px;
   } 
 
-/*
-  #article1 { 
-    width: 50%;
-    text-align: left;
-    background-color: wheat;
-    border-radius: 20px; 
-  } 
-
-  h1 {
-    text-align: center;
-  }
-  h2 ,h3 {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: left;
-  }
-  p {
-    text-align: center;
-  }
-  
-  #article2 { 
-    float: right;
-    width: 50%;
-    text-align: right;
-    background-color: wheat;
-    border-radius: 20px;
-    margin-top: 50px;
-    padding-bottom: 5px;
-  }
-
-  #article2 h1, p {
-    text-align: center;
-  } 
-
-  #social img {
-    width: 50px;
-    height: 50px;
-    margin: 50px;
-  }
-  #social {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    background-color: #333;
-    width: 100%;
-    border-radius: 0px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  #social h1 { 
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: medium;
-    margin-top: 50px;
-  }
-
-  #article3 { 
-    float: left;
-    width: 50%;
-    text-align: left;
-    background-color: wheat;
-    border-radius: 20px; 
-    margin-top: 50px;
-    padding-bottom: 65px;
-  } */
   #article1 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 30px;  
+    padding-top: 50px;  
   }
 
   .first {
@@ -123,7 +57,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 30px;  
+    padding-top: 50px;  
   }
 
   .second {
@@ -137,7 +71,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 50px;
 
   }
 
@@ -148,3 +82,24 @@ ul {
     border-radius: 20px;
   }
 
+  h1, h2, h3 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  #social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+    background-color: wheat;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+
+  #social img {
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+  }
